@@ -1,5 +1,7 @@
 package com.github.shaneyu.tutorialmod;
 
+import com.github.shaneyu.tutorialmod.common.item.ModCreativeModeTabs;
+import com.github.shaneyu.tutorialmod.common.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +25,7 @@ public class TutorialMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
+        ModItems.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
@@ -32,6 +35,9 @@ public class TutorialMod
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
+        if (event.getTab() == ModCreativeModeTabs.TUTORIAL_TAB) {
+            ModItems.ITEMS.getEntries().forEach(event::accept);
+        }
     }
 
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
