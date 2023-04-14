@@ -1,0 +1,13 @@
+// 1.19.3	2023-04-14T19:42:47.4236134	Block States: tutorialmod
+ad438e6a44772106202377ad38bcb6236ea9c5d4 assets/tutorialmod/blockstates/coal_infused_iron_ore.json
+32e9267dc8a30417a153bb1ad32bbfa4e1d18729 assets/tutorialmod/blockstates/iron_frame.json
+9aea4bb56b2689cb2970023c6d949334a526c955 assets/tutorialmod/blockstates/steel_block.json
+0811094dd02d0ca9aab88634ba495d5922f44e2f assets/tutorialmod/blockstates/steel_frame.json
+57981d72751f0a28814b992e81f06028281345b6 assets/tutorialmod/models/block/coal_infused_iron_ore.json
+4859334915dda2286426d9c33a255c9cdba5f9a0 assets/tutorialmod/models/block/iron_frame.json
+5331fb1a3fb15ec05eceaa6e4d1d44a87d82ee2b assets/tutorialmod/models/block/steel_block.json
+2affcaf4c908674fb6b7504efc259bc7d90a0327 assets/tutorialmod/models/block/steel_frame.json
+753e6117602097be3765798e2589548a3f3b774c assets/tutorialmod/models/item/coal_infused_iron_ore.json
+934115846c9aff66a7ba6f50a90e1c2a787f4021 assets/tutorialmod/models/item/iron_frame.json
+5758ce94bed5f572de887e9a2517b91e9d4f56de assets/tutorialmod/models/item/steel_block.json
+a3e878059112f389f0f999d2a0b26ca84e2afb43 assets/tutorialmod/models/item/steel_frame.json
