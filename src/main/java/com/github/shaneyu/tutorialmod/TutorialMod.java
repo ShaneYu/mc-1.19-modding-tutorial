@@ -1,5 +1,6 @@
 package com.github.shaneyu.tutorialmod;
 
+import com.github.shaneyu.tutorialmod.common.block.ModBlocks;
 import com.github.shaneyu.tutorialmod.common.item.ModCreativeModeTabs;
 import com.github.shaneyu.tutorialmod.common.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -26,6 +27,7 @@ public class TutorialMod
 
         modEventBus.addListener(this::commonSetup);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
