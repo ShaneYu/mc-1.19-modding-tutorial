@@ -1,0 +1,8 @@
+// 1.19.3	2023-04-19T20:13:54.8604418	Tags for minecraft:item mod id tutorialmod
+560ea8b4b7d6d81db4964f926d59885d71dfff52 data/forge/tags/items/ingots.json
+cc949329e457d2d5ca658333fd07294aed0b7284 data/forge/tags/items/ingots/steel.json
+46d9bc7a06e74ab34fb6eabad81b01907f382267 data/forge/tags/items/ores/coal_infused_iron.json
+736e932c9baa253bc77869fc809cb788aec04f17 data/forge/tags/items/raw_materials.json
+db1017f1b98ef8cf60eb19e79f44a6ec6b28d8a3 data/forge/tags/items/raw_materials/coal_infused_iron.json
+dee9c198cfa241a268ec5bddc754bf82c18858c1 data/forge/tags/items/storage_blocks.json
+1b382f2f9130929007e0bb8a38c228424bff0ed0 data/forge/tags/items/storage_blocks/steel.json

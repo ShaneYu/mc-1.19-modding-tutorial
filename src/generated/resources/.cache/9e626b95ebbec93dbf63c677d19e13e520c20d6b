@@ -1,0 +1,12 @@
+// 1.19.3	2023-04-19T20:13:54.8574326	Tags for minecraft:block mod id tutorialmod
+e9ef3960ecd973311a0bc8dfb02b087bdbae7cde data/forge/tags/blocks/ores.json
+46d9bc7a06e74ab34fb6eabad81b01907f382267 data/forge/tags/blocks/ores/coal_infused_iron.json
+46d9bc7a06e74ab34fb6eabad81b01907f382267 data/forge/tags/blocks/ores_in_ground/stone.json
+46d9bc7a06e74ab34fb6eabad81b01907f382267 data/forge/tags/blocks/ore_rates/singular.json
+dee9c198cfa241a268ec5bddc754bf82c18858c1 data/forge/tags/blocks/storage_blocks.json
+1b382f2f9130929007e0bb8a38c228424bff0ed0 data/forge/tags/blocks/storage_blocks/steel.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/axe.json
+9a4748a9966550f636d9795fdc15cdbc90f17cbe data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/shovel.json
+bc5458195736e3b51ffac98731c32323bda5445b data/minecraft/tags/blocks/needs_iron_tool.json
+46d9bc7a06e74ab34fb6eabad81b01907f382267 data/minecraft/tags/blocks/needs_stone_tool.json

@@ -10,6 +10,9 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MODID);
 
+    public static final RegistryObject<Item> RAW_COAL_INFUSED_IRON =
+            ITEMS.register("raw_coal_infused_iron", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> COAL_DUST =
             ITEMS.register("coal_dust", () -> new Item(new Item.Properties()));
 

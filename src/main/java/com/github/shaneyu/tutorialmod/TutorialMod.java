@@ -3,6 +3,7 @@ package com.github.shaneyu.tutorialmod;
 import com.github.shaneyu.tutorialmod.common.block.ModBlocks;
 import com.github.shaneyu.tutorialmod.common.item.ModCreativeModeTabs;
 import com.github.shaneyu.tutorialmod.common.item.ModItems;
+import com.github.shaneyu.tutorialmod.common.tag.ModTags;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,7 @@ public class TutorialMod
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(ModTags::init);
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
