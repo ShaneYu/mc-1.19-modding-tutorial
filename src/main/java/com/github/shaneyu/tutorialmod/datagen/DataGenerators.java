@@ -5,6 +5,7 @@ import com.github.shaneyu.tutorialmod.datagen.client.ModBlockStateProvider;
 import com.github.shaneyu.tutorialmod.datagen.client.ModItemModelProvider;
 import com.github.shaneyu.tutorialmod.datagen.client.ModLanguageProvider;
 import com.github.shaneyu.tutorialmod.datagen.common.loot.ModLootTableProvider;
+import com.github.shaneyu.tutorialmod.datagen.common.recipe.ModRecipeProvider;
 import com.github.shaneyu.tutorialmod.datagen.common.tag.ModBlockTagsProvider;
 import com.github.shaneyu.tutorialmod.datagen.common.tag.ModItemTagsProvider;
 import net.minecraft.data.DataGenerator;
@@ -33,6 +34,7 @@ public class DataGenerators {
             ModBlockTagsProvider modBlockTagsProvider = new ModBlockTagsProvider(packOutput, lookupProvider, existingFileHelper);
             generator.addProvider(true, modBlockTagsProvider);
             generator.addProvider(true, new ModItemTagsProvider(packOutput, lookupProvider, modBlockTagsProvider, existingFileHelper));
+            generator.addProvider(true, new ModRecipeProvider(packOutput));
         }
     }
 }

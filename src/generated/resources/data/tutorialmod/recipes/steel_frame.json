@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "I": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "pattern": [
+    "I I",
+    " B ",
+    "I I"
+  ],
+  "result": {
+    "item": "tutorialmod:steel_frame"
+  }
+}

@@ -18,6 +18,7 @@ public class ModLanguageProvider extends LanguageProvider {
         add(ModItems.IRON_DUST.get(), "Iron Dust");
         add(ModItems.STEEL_DUST.get(), "Steel Dust");
         add(ModItems.RAW_COAL_INFUSED_IRON.get(), "Raw Coal Infused Iron");
+        add(ModItems.STEEL_INGOT.get(), "Steel Ingot");
         add(ModBlocks.COAL_INFUSED_IRON_ORE.get(), "Coal Infused Iron Ore");
         add(ModBlocks.STEEL_BLOCK.get(), "Block of Steel");
         add(ModBlocks.IRON_FRAME.get(), "Iron Frame");
